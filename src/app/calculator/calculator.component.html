@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        </head>
+    <body>
+        
+
+        <div class="form">
+            <p>You Have Unlocked the Calculator</p>
+            <form name="ngForm" novalidate class="form">
+            
+            <input #input id="answer"name="answer" ngModel required  #first="ngModel" /> 
+            <br>
+            
+            <input type="button" value=" 1 " onclick="ngForm.answer.value += '1'" />
+            <input type="button" value=" 2 " onclick="ngForm.answer.value += '2'" />
+            <input type="button" value=" 3 " onclick="ngForm.answer.value += '3'" />
+            <input type="button" value=" + " onclick="ngForm.answer.value += '+'" />
+            <br>
+            
+            <input type="button" value=" 4 " onclick="ngForm.answer.value += '4'" />
+            <input type="button" value=" 5 " onclick="ngForm.answer.value += '5'" />
+            <input type="button" value=" 6 " onclick="ngForm.answer.value += '6'" />
+            <input type="button" value=" - " onclick="ngForm.answer.value += '-'" />
+            <br>
+          
+            <input type="button" value=" 7 " onclick="ngForm.answer.value += '7'" />
+            <input type="button" value=" 8 " onclick="ngForm.answer.value += '8'" />
+            <input type="button" value=" 9 " onclick="ngForm.answer.value += '9'" />
+            <input type="button" value=" x " onclick="ngForm.answer.value += '*'" />
+            <br>
+        
+            <input type="button" value=" c " onclick="ngForm.answer.value = ''" />
+            <input type="button" value=" 0 " onclick="ngForm.answer.value += '0'" />
+            <button (click)="parse(input.value)"> = </button>
+            <input type="button" value=" / " onclick="ngForm.answer.value += '/'" />
+            <br>
+  
+    
+          </form>
+        </div>
+       
+    </body>
+
+    
+</html>

@@ -1,3 +1,11 @@
+![image](https://user-images.githubusercontent.com/41454040/81407579-abb94380-9109-11ea-97a0-c9430c2b1225.png)
+
+![image](https://user-images.githubusercontent.com/41454040/81407657-c8ee1200-9109-11ea-8d60-f6de118de366.png)
+
+![image](https://user-images.githubusercontent.com/41454040/81407671-d0152000-9109-11ea-8733-6d8986132199.png)
+
+
+
 # PracticeApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
